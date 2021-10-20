@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    
+    
+  background-color:hsl(57, 67%, 89%);
+  background-image: url(https://i.ytimg.com/vi/wqCPa73ffeQ/maxresdefault.jpg);
+  
+    
+    
+    
+    
+}
+
+.header{
+    margin-top: 0px;
+    color:gray;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.header1{
+    color:#e5383b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    text-align: center;
+}
+.input{
+    font-style:normal;
+    color:black;
+    margin:0px auto 0px 300px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.input1{
+    font-style:normal;
+    color:black;
+    margin: 0px 280px 0px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.predict{
+    margin:auto auto 30px auto;
+    
+    color:white;
+    text-align:center;
+
+    
+}
+.biggest{
+    display: flex;
+    flex-direction: row;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px auto 0px auto;
+
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 0px auto;
+}
+   
+button {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-color: green;
+}
+
+button:active {
+    transform: scale(0.98);
+    background-color: green;
+}
