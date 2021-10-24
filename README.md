@@ -1,6 +1,11 @@
-                                                                                  TEQIP-Expert-System
+  TEQIP-Expert-System
+  
+  
 
-                                                    Heart Attack Predictor using K Nearest Neighbour and Support Vector Regression.
+  Heart Attack Predictor using K Nearest Neighbour and Support Vector Regression.
+  
+  
+  
 
 Data (data.csv) is divided into training set (60% of data) and testing set (40% of data) and depending on what it has learnt the classification model (k nearest neighbour) classifies the input data into "risk of heart attack" and "no risk of heart attack". If the given data points at risk of heart attack, the regression model runs and predicts the percentage of risk. 
 
